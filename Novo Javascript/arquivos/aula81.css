@@ -1,0 +1,28 @@
+*{
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color:rgb(74, 145, 225);
+}
+
+.olhos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+    height: 200px;
+   
+   /*  o comando em css a seguir coloca as imagens no centro da tela */
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.olho{
+    width: 200px;
+    height: 200px;
+    transform-origin: center center;
+}

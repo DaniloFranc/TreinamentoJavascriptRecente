@@ -1,0 +1,26 @@
+.menuPrincipal{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.menuPrincipal img{
+    width: inherit;
+}
+.menuItens{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.btn_menuItem{
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px 15px;
+    width: 200px;
+}
+
+.btn_menuPrincipal{
+    cursor: pointer;
+    width: 20px;
+}
